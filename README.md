@@ -27,21 +27,29 @@ Free AI image generation app using HuggingFace Stable Diffusion XL.
 
 ## Quick Start
 
-### Prerequisites
-- Node.js 18+
-- MongoDB Atlas account
-- HuggingFace token
-
-### Installation
-
-1. Clone repo
+### Option 1: Docker (Recommended)
 ```bash
+# Clone repo
 git clone https://github.com/nguyendodary/ai-image-generator.git
 cd ai-image-generator
+
+# Setup environment
+cp .env.example .env
+# Edit .env with your credentials
+
+# Run with Docker
+docker-compose up --build
+
+# Access at http://localhost:80
 ```
 
-2. Install dependencies
+### Option 2: Local Development
 ```bash
+# Clone repo
+git clone https://github.com/nguyendodary/ai-image-generator.git
+cd ai-image-generator
+
+# Install dependencies
 # Server
 cd server
 npm install
@@ -49,20 +57,12 @@ npm install
 # Client
 cd ../client
 npm install
-```
 
-3. Environment variables
-```bash
-# server/.env
-HF_API_KEY=your_huggingface_token
-MONGODB_URL=your_mongodb_url
-CLOUDINARY_CLOUD_NAME=your_cloudinary_name
-CLOUDINARY_API_KEY=your_cloudinary_key
-CLOUDINARY_API_SECRET=your_cloudinary_secret
-```
+# Setup environment
+cp server/.env.example server/.env
+# Edit server/.env with your credentials
 
-4. Run application
-```bash
+# Run application
 # Terminal 1 - Server
 cd server
 npm start
@@ -70,9 +70,9 @@ npm start
 # Terminal 2 - Client
 cd client
 npm run dev
-```
 
-5. Open http://localhost:5173
+# Access at http://localhost:5173
+```
 
 ## API Endpoints
 
