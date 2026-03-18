@@ -1,14 +1,14 @@
 # AI Image Generator
 
-Ứng dụng tạo ảnh AI miễn phí sử dụng HuggingFace Stable Diffusion XL.
+Free AI image generation app using HuggingFace Stable Diffusion XL.
 
 ## Features
 
-- 🎨 Tạo ảnh AI từ text prompts
-- 🆓 Miễn phí với HuggingFace API
+- 🎨 Generate AI images from text prompts
+- 🆓 Free with HuggingFace API
 - 🌐 Community showcase
 - 📱 Responsive design
-- 💾 Download ảnh
+- 💾 Download images
 
 ## Tech Stack
 

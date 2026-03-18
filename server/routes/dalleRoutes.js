@@ -2,7 +2,7 @@ import express from 'express';
 
 const router = express.Router();
 
-// Sử dụng HuggingFace Inference API - miễn phí
+// Using HuggingFace Inference API - free
 const HF_MODEL = 'https://router.huggingface.co/hf-inference/models/stabilityai/stable-diffusion-xl-base-1.0';
 
 router.post('/', async (req, res) => {

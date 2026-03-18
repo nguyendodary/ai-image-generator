@@ -10,7 +10,7 @@ cloudinary.config({
   api_secret: 'tAgb8WVRhk-7jSzEpJ3OnQXP4fk',
 });
 
-// Debug: Log Cloudinary config (ẩn secret)
+// Debug: Log Cloudinary config (hide secret)
 console.log('Cloudinary config:', {
   cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
   api_key: process.env.CLOUDINARY_API_KEY ? 'SET' : 'MISSING',
