@@ -1,0 +1,17 @@
+{
+  "name": "dally-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "cloudinary": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "mongoose": "latest",
+    "nodemon": "latest",
+    "openai": "latest"
+  }
+}
